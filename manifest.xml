@@ -7,3 +7,6 @@
   <default revision="main"
            remote="aosp"
            sync-j="4" />
+
+           <project path="build/orchestrator" name="platform/build/orchestrator" groups="pdk" revision="<branchname>" />
+</manifest>
