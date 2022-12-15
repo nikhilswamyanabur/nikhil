@@ -2,8 +2,8 @@
 <manifest>
 <remote  name="myremote"
            fetch=".."
-           review="githuburl" />
+           review="https://github.com/nikhilswamyanabur/nikhil.git" />
 <remote name="aosp" fetch=".." review="aosp-gerrit-url"/>
-  <default revision="master"
+  <default revision="main"
            remote="aosp"
            sync-j="4" />
