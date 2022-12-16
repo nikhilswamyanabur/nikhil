@@ -2,11 +2,11 @@
 <manifest>
 <remote  name="myremote"
            fetch=".."
-           review="https://github.com/nikhilswamyanabur/nikhil.git" />
+           review="https://github.com" />
 <remote name="aosp" fetch=".." review="aosp-gerrit-url"/>
   <default revision="main"
            remote="aosp"
            sync-j="4" />
 
-           <project path="build/orchestrator" name="platform/build/orchestrator" groups="pdk" revision="<branchname>" />
+           <project path="https://github.com/nikhilswamyanabur/niktest1" name="nikhilswamyanabur/niktest1" />
 </manifest>
